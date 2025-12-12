@@ -51,7 +51,6 @@ O algoritmo itera sobre a lista de componentes comerciais e seleciona aquele que
 
 ```mermaid
 graph TD
-
     A([Início]) --> B[/Entrada: Valor Ideal/]
     B --> C[/Entrada: Lista de Componentes/]
     C --> D{Ainda há itens<br>na lista?}
@@ -64,6 +63,7 @@ graph TD
     H --> I[Salvar como Melhor Candidato]
     I --> D
 ```
+
 ## 4. Resultados e Análise
 
 Abaixo apresentamos a comparação entre o projeto teórico e os componentes selecionados pelo algoritmo.
