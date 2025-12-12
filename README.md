@@ -49,6 +49,7 @@ erro = abs(valor_ideal - valor_comercial)
 
 O algoritmo itera sobre a lista de componentes comerciais e seleciona aquele que minimiza essa variável. Dessa forma, garantimos que o desvio da frequência de corte original seja o menor possível matematicamente.
 
+```mermaid
 graph TD
 
     A([Início]) --> B[/Entrada: Valor Ideal/]
@@ -62,7 +63,7 @@ graph TD
     G -- Sim --> H[Atualizar Menor Erro]
     H --> I[Salvar como Melhor Candidato]
     I --> D
-
+```
 ## 4. Resultados e Análise
 
 Abaixo apresentamos a comparação entre o projeto teórico e os componentes selecionados pelo algoritmo.
