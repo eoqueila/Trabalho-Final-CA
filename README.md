@@ -49,7 +49,7 @@ erro = abs(valor_ideal - valor_comercial)
 
 O algoritmo itera sobre a lista de componentes comerciais e seleciona aquele que minimiza essa variável. Dessa forma, garantimos que o desvio da frequência de corte original seja o menor possível matematicamente.
 
-
+graph TD
     A([Início]) --> B[/Entrada: Valor Ideal/]
     B --> C[/Entrada: Lista de Componentes/]
     C --> D{Ainda há itens<br>na lista?}
@@ -98,6 +98,6 @@ Para reproduzir os resultados e gerar os gráficos:
     ```
 2.  **Execute o script:**
     ```bash
-    python main.py
+    python crossover-passivo.py
     ```
 3.  Verifique o terminal para os valores calculados e a pasta local para o arquivo de imagem do gráfico.
