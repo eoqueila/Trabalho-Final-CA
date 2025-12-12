@@ -56,7 +56,7 @@ graph TD
     C --> D{Ainda há itens<br>na lista?}
     D -- Não --> J([Retornar Melhor Valor])
     D -- Sim --> E[Pegar Próximo Valor]
-    E --> F[Calcular Erro:<br>abs_diff = |Ideal - Valor|]
+    E --> F["Calcular Erro:<br>abs_diff = |Ideal - Valor|"]
     F --> G{Erro é menor que<br>o Menor Erro atual?}
     G -- Não --> D
     G -- Sim --> H[Atualizar Menor Erro]
